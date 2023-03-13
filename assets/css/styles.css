@@ -2,10 +2,14 @@
     border: solid 1px black;
     border-collapse: collapse;
 }
+tr:hover{
+    background-color: paleturquoise;
+}
 th{
     border: solid 1px black;
     color: white;
     background-color: darkslategray;
+    width:100px;
 } 
 /* td{
     border:solid 1px black;
