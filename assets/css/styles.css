@@ -1,1 +1,23 @@
-/* css file */
+.NameTable{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+th{
+    border: solid 1px black;
+    color: white;
+    background-color: darkslategray;
+} 
+/* td{
+    border:solid 1px black;
+    background-color: lightslategray;
+}*/
+.r1{
+    background-color:firebrick;
+    color: white;
+}
+.r2{
+    background-color:burlywood;
+}
+.r3{
+    background-color:darkseagreen;
+}
