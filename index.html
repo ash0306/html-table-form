@@ -26,5 +26,26 @@
             <td>Feyre</td>
         </tr>
     </table>
+    <br>
+
+    <form>
+        <label for="FirstName">First Name*:</label>
+        <input type="text" id="FirstName" required>
+        <br>
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName" required>
+        <br>
+        <label for="Mobile">Mobile Number*:</label>
+        <input type="text" id="Mobile" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required>
+        <br>
+        <label for="Email">Email*:</label>
+        <input type="text" id="Email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4$}" required>
+        <br>
+        <p>Gender:</p>
+        <input type="radio" id="Gender" name="gen" value="Female">
+        <label for="Gender">Female</label><br>
+        <input type="radio" id="Gender" name="gen" value="Male">
+        <label for="Gender">Male</label><br>
+    </form>
 </body>
 </html>

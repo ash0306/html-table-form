@@ -11,11 +11,11 @@ th{
     background-color: darkslategray;
     width:100px;
 } 
-/* td{
+td{
     border:solid 1px black;
     background-color: lightslategray;
-}*/
-.r1{
+}
+/* .r1{
     background-color:firebrick;
     color: white;
 }
@@ -24,4 +24,5 @@ th{
 }
 .r3{
     background-color:darkseagreen;
-}
+}*/
+
